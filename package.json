@@ -1,0 +1,48 @@
+{
+  "name": "tstyche-intellij-reporter",
+  "version": "1.0.0-beta.0",
+  "private": true,
+  "description": "The TSTyche reporter for IntelliJ IDEA, WebStorm and other JetBrains IDEs.",
+  "keywords": [
+    "tstyche",
+    "reporter",
+    "intellij",
+    "webstorm",
+    "jetbrains"
+  ],
+  "homepage": "https://tstyche.org",
+  "bugs": {
+    "url": "https://github.com/tstyche/tstyche-intellij-reporter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tstyche/tstyche-intellij-reporter.git"
+  },
+  "funding": "https://github.com/tstyche/tstyche?sponsor=1",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./lib/IntellijReporter.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {
+    "format": "biome format --write",
+    "lint": "biome lint --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "22.10.5",
+    "tstyche": "3.5.0",
+    "typescript": "5.7.3"
+  },
+  "peerDependencies": {
+    "tstyche": "^3.5.0"
+  },
+  "packageManager": "yarn@4.6.0",
+  "engines": {
+    "node": ">=20.9"
+  }
+}
