@@ -25,6 +25,7 @@
     ".": "./lib/IntellijReporter.js",
     "./package.json": "./package.json"
   },
+  "bin": "./bin.js",
   "files": [
     "lib/*"
   ],
