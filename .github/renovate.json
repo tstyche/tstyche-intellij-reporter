@@ -7,5 +7,6 @@
     ":maintainLockFilesWeekly",
     ":semanticCommits",
     "customManagers:biomeVersions"
-  ]
+  ],
+  "enabled": false
 }
