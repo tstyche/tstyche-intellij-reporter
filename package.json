@@ -2,7 +2,7 @@
   "name": "tstyche-intellij-reporter",
   "version": "1.0.0-beta.0",
   "private": true,
-  "description": "The TSTyche reporter for IntelliJ IDEA, WebStorm and other JetBrains IDEs.",
+  "description": "The TSTyche reporter for IntelliJ-based IDEs.",
   "keywords": [
     "tstyche",
     "reporter",
