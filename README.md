@@ -1,6 +1,6 @@
 # tstyche-intellij-reporter
 
-The TSTyche reporter for IntelliJ IDEA, WebStorm and other JetBrains IDEs.
+The TSTyche reporter for IntelliJ-based IDEs.
 
 ---
 
